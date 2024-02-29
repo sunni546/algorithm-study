@@ -1,1 +1,1 @@
-# Algorithm-java
+# AlgorithmStudy
