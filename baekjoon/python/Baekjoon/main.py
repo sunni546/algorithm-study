@@ -1,6 +1,7 @@
-def print_hi(name):
-    print(f'Hi, {name}')
+def cal(x, y):
+    return (x + y) // (y + 1)
 
 
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    h, w, n, m = map(int, input().split())
+    print(cal(h, n) * cal(w, m))
