@@ -1,0 +1,10 @@
+import sys
+
+if __name__ == '__main__':
+    input = sys.stdin.readline
+    n = int(input())
+
+    if n % 2 == 1:
+        print("SK")
+    else:
+        print("CY")
